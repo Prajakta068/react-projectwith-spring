@@ -6,6 +6,7 @@ class ListEmployeeComponent extends Component {
         super(props)
 
         this.state = {
+            //entity 
                 employees: []
         }
         this.addEmployee = this.addEmployee.bind(this);
@@ -34,7 +35,7 @@ class ListEmployeeComponent extends Component {
     addEmployee(){
         this.props.history.push('/add-employee/_add');
     }
-
+//jsx code write in render method
     render() {
         return (
             <div>
