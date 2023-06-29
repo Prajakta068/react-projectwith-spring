@@ -5,7 +5,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 //API will return not found status to client
 
 @ResponseStatus(value = HttpStatus.NOT_FOUND)
-
+	
+//this exception extends runtime exceptions
 //when resource is not found it throw exception
 public class ResourceNotFoundException extends RuntimeException {
 
